@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+	/*font-family: 'Comfortaa', cursive;*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	min-height: 750px;
+}
+
+.menu li {
+	list-style: none;
+	display: inline-flex;
+}
+
+.menu a {
+	color: #161d2d;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.logo {
+	width: 30px;
+	margin: 42px;
+	position: absolute;
+}
+
+h1, h5, p, h2 {
+	color: #161d2d;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+}
+
+h1 {
+	font-size: 1.5em;
+	line-height: 52px;
+}
+
+h1 span {
+	font-weight: 700;
+}
+
+.portfolio, .web-txt {
+	text-align: center;
+}
+
+.web-img {
+	width: 50%;
+	padding: 52px 20%;
+}
+
+.web-img img {
+	width: 250px;
+}
+
+.portfolio {
+	background-color: #8a56f9ff;
+	padding: 18px 0;
+}
+
+.portfolio h1 {
+		color: white;
+	}
+
+.portfolio p , .portfolio h2 {
+	color: white;
+}
+
+.btn {
+	margin-top: 52px;
+}
+
+.btn a {
+	padding: 10px 35px;
+	background-image: radial-gradient(circle at top left, #e1769aff, #8754fbff);
+	border-radius: 8px;
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 0.3PX;
+}
+
+.btn a:hover {
+	background-image: radial-gradient(circle at top left, #8754fbff, #e1769aff);
+}
+
+.seksion article {
+	margin-top: 30px;
+}
+
+.seksion p {
+	margin: 20px 0;
+}
+
+.art, .art2 {
+	padding: 0 12% 12%;
+}
+
+.art-img, .art-img2 {
+	width: 50%;
+	padding: 24px 20%;
+}
+
+.art-img img, .art-img2 img{
+	width: 250px;
+}
+
+.about {
+	width: 100%;
+	min-height: 500px;
+	padding: 52px;
+}
+
+.biodata h2, .sosmed h2 {
+	text-align: center;
+	margin: 20px 0;
+}
+
+table {
+	width: 100%;
+}
+
+.sosmed table {
+	height: 150px;
+}
+
+.sosmed table td {
+	vertical-align: middle;
+}
+
+td {
+	vertical-align: top;
+	height: 42px;
+}
+
+footer p{
+	text-align: center;
+	color: white;
+	background-color: #161d2d;
+	padding: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+.line {
+	margin: 0 10%;
+	background-color: #8a56f9ff;
+	height: 2px;
+}
+
+
+@media (min-width: 576px) {
+
+	.menu-hp {
+		display: none;
+	}
+
+	.menu {
+		margin: 50px 100px;
+		display: inline-flex;
+	}
+
+	.menu li {
+		margin: 0 20px;
+	}
+
+	.jumbotron {
+		width: 80%;
+		height: 70%;
+		top: 25%;
+		left: 130px;
+		position: absolute;
+	}
+
+	.medsos {
+		position: absolute;
+		display: inline-flex;
+		right: 80px;
+		list-style-type: none;
+		cursor: pointer;
+		margin: 50px 0;
+	}
+
+	.medsos img {
+		width: 30px;
+		margin: 0 10px;
+	}
+
+	.web-txt {
+		width: 50%;
+		float: left;
+		text-align: left;
+	}
+
+	.web-txt p {
+		margin: 20px 0;
+	}
+
+	.web-img {
+		width: 50%;
+		float: right;
+		padding: 0;
+	}
+
+	.web-img img {
+		width: 70%;
+		margin-left: 30%;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	.btn {
+		position: absolute;
+	}
+
+	.portfolio {
+		width: 100%;
+		min-height: 500px;
+		padding: 1px 5%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.seksion {
+		display: flex;
+		padding: 42px 0;
+	}
+
+	.art {
+		float: right;
+		width: 50%;
+		padding: 12%;
+	}
+
+	.art-img {
+		float: left;
+		width: 50%;
+		padding: 12%
+	}
+
+	.art-img img {
+		width: 300px;
+		margin-left: 52px;
+	}
+
+	.art2 {
+		float: left;
+		width: 50%;
+		padding: 12%;
+	}
+
+	.art-img2 {
+		float: right;
+		width: 50%;
+		padding: 12%
+	}
+
+	.art-img2 img {
+		width: 300px;
+		margin-right: 52px;
+	}
+
+	.sosmed {
+		float: left;
+		width: 60%;
+		padding-left: 52px;
+	}
+	.sosmed table {
+		width: 60%;
+	}
+	.biodata {
+		float: right;
+		width: 40%;
+	}
+
+	.biodata h2, .sosmed h2 {
+		text-align: left;
+		margin: 42px 0;
+	}
+
+	.btn-new {
+		color: #161d2d;
+		text-decoration: none;
+		transition: color 0.7s;
+	}
+
+	.btn-new:hover {
+		color: white;
+	}
+}
+
+@media (max-width: 575.98px) {
+
+	.icon {
+		width: 25px;
+		height: 2.5px;
+		margin: 4px;
+		background-color: #8a56f9ff;
+		border-radius: 1px;
+	}
+
+	.menu {
+		position: absolute;
+		top: 30px;
+		right: 0px;
+		width: 50%;
+		height: 80%;
+		background-color: white;
+		flex-direction: column;
+		align-items: center;
+		display: none;
+	}
+
+	.menu li {
+		padding-top: 24px;
+	}
+
+	.menu-hp {
+		position: absolute;
+		right: 0px;
+		margin: 20px;
+	}
+
+	.logo {
+		position: absolute;
+		margin: 15px;
+	}
+
+	.medsos {
+		display: none;
+	}
+
+	.portfolio {
+		padding: 18px 45px;
+	}
+}
